@@ -7,12 +7,12 @@ public class Main {
     public static void main(String[] args) {
         Curso curso1 = new Curso();
         curso1.setTitulo("Curso Java");
-        curso1.setDescricao("Descrição Curso de Java");
+        curso1.setDescricao("Descrição Curso de Java...");
         curso1.setCargaHoraria(8);
         
         Curso curso2 = new Curso();
         curso2.setTitulo("Curso Python");
-        curso2.setDescricao("Descrição Curso de Python");
+        curso2.setDescricao("Descrição Curso de Python...");
         curso2.setCargaHoraria(5);
 
         Mentoria mentoria = new Mentoria();
